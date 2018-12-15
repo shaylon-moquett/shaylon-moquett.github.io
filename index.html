@@ -1,0 +1,149 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div id="nav-bar">
+			<div id="nav-home" class="nav-item selected">HOME</div>
+			<div id="nav-resume" class="nav-item">RESUME</div>
+			<div id="nav-my-work" class="nav-item">MY WORK</div>
+			<div id="nav-linkedin" class="nav-item">
+				<a href="https://www.linkedin.com/in/shaylon-moquett-12112537/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		</div>
+	</header>
+	
+	<div id="site-wrap">
+		
+		<div id="name"><span>SHAYLON MOQUETT</span></div>
+		<!-- Home/About -->
+		<div id="home" class="content-item">
+			<div id="home-wrap">
+				<div id="profile-img"><img src="./images/profile_1.jpg"/></div>
+				<div id="home-content">
+					<h3>ABOUT ME</h3>
+					<p>
+						My name is Shaylon Moquett.  I'm a full-stack app developer and systems analyst based in Fort Smith, AR.  I'm also a senior at the University of Arkansas Fort Smith.
+					</p>
+
+					<h3>BACKGROUND</h3>
+					<p>
+						For 3 years I've developed desktop and web apps for Summit Utilities and Golden Living.  I spend much of my time working with accounting, finance, and operations teams to solve business problems and implement fresh ideas with technology.
+					</p>
+
+					<p>
+						Before becoming a developer, I worked as a business analyst in the healthcare and pharma industries.
+					</p>
+
+					<h3>TOO MUCH INFO</h3>
+					<p>
+						I enjoy playing basketball but I'm not very good at it.  I went skydiving once and it was amazing.  My parents train thoroughbred racehorses.  I like to code and tinker and wax poetic about movies from my childhood ("Hello. My name is Inigo Montoya. You killed my father. Prepare to die.").
+
+						Mostly, I love to be challenged, I love to learn, and I love to try new things.
+					</p>
+
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Resume -->
+		<div id="resume" class="content-item hidden">
+			<div><a id="resume-btn" target="blank" href="./files/Resume - Shaylon Moquett Dec 2018.pdf" title="Download my resume">Download</a></div>
+			<div id="resume-wrap">
+				<div id="summary" class="resume-item">
+					<div class="resume-header">
+						<h2>Summary</h2>
+						<ul>
+							<li>Over three years’ experience creating Web, WPF, and Console apps as a .NET Developer.</li>
+							<li>Seven years’ experience implementing new apps, creating reports, training staff, and writing documentation as a Business Analyst and Business Systems Specialist.</li>
+							<li>Unique blend of technical and business skills (e.g., problem solving, effective communication, application development, and leadership).</li>
+						</ul>
+					</div>
+				</div>	
+				
+				<div id="experience" class="resume-item">
+					<div class="resume-header">
+						<h2>Experience</h2>
+						<div class="exp-wrap">
+							<h4>Systems Analyst 2 at Summit Utilities</h4>
+							<ul>
+								<li>Created, refactored, and supported applications for Accounting, Payroll, Customer Service, and Operations teams</li>
+								<li>Created WPF desktop apps using MVVM pattern, C#, EntityFramework, LINQ, MSSQL & Oracle SQL.</li>
+								<li>Created apps to integrate with ADP’s (third-party payroll system) Time Entry and Worker APIs.</li>
+								<li>Played a vital role in the implementation of Oracle EBS, Cayenta (CRM), PowerPlan, and ADP.</li>
+							</ul>
+						</div>
+						<div class="exp-wrap">
+							<h4>Interim Clinical Applications Manager at Golden Living</h4>
+							<ul>
+								<li>Lead a team of Subject Matter Experts for clinical applications such as PointClickCare and CareTracker.</li>
+								<li>Managed the transition of patient electronic health records to new operators.</li>
+								<li>Facilitated knowledge-share meetings between new operational leadership and Golden Living Clinical leadership.</li>
+								<li>Supported Golden Living leadership by providing quality analysis reporting, knowledge-sharing, application support, and more.</li>
+							</ul>
+						</div>
+						<div class="exp-wrap">
+							<h4>Software Analyst 1 at Golden Living</h4>
+							<ul>
+								<li>Developed full-stack web apps using:   AngularJS, JQuery, KendoUI, CSS, C#, ASP.NET, VB.NET, Bootstrap, Entity Framework, Fiddler, LINQ, T-SQL, SSIS, SSMS, Team Foundation Server (TFS), and Visual Studio.</li>
+								<li>Created Keystone; an internal form-building application (like Survey Monkey) designed to enable business owners to create and manage their own forms, surveys, and assessments.</li>
+								<li>Worked extensively with business owners, upper management, and vendors to identify and resolve issues as well as develop new applications and features. </li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+				<div id="education" class="resume-item">
+					<div class="resume-header">
+						<h2>Education</h2>
+						<div class="exp-wrap">
+							<h4>University of Arkansas Fort Smith</h4>
+							<ul>
+								<li>BS in Information Technology (Programming)</li>
+								<li>Expected Graduation Date:  May 2020</li>
+								<li>Related Course Work: IoT Development, Big Data, Writing for the Workplace</li>
+							</ul>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<!-- Work Samples -->
+		<div id="work" class="content-item hidden">
+			<div id="work-wrap">
+				<i id="show-prev-item" class="fas fa-chevron-left"></i>
+				<div class="work-item">
+					<a href="https://codepen.io/shaylonh/full/qNxALL" target="blank"><img src=".\images\welcome_page2.png" /></a>
+					<p>Sample landing page.</p>
+				</div>
+
+				<div class="work-item hidden">
+					<a href="https://codepen.io/shaylonh/full/vyrNzY" target="blank"><img src=".\images\welcome_page1.png" /></a>
+					<p>Simple parallax background image.</p>
+				</div>
+
+				<div class="work-item hidden">
+					<img src=".\images\web_quiz_video.gif" />
+					<p>Real-Time quiz game made for teachers and students.</p>
+				</div>
+
+				<div class="work-item hidden">
+					<img src=".\images\uafs_course_scheduler_long.gif" />
+					<p>Concept for an improved UAFS Course Scheduling app.</p>
+				</div>
+				<i id="show-next-item" class="fas fa-chevron-right"></i>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+
+</html>
