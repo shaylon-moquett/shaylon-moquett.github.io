@@ -202,9 +202,7 @@ div#nav-twitter, #nav-linkedin {
   border-radius: 2px;
   background: none;
   font-size: 16px;
-  line-height: 34px;
   color: #2a2a2a;
-  letter-spacing: .25em;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
@@ -217,7 +215,11 @@ div#nav-twitter, #nav-linkedin {
   transition: background .4s, color .4s;
   cursor: pointer;
 	text-decoration: none;
+}
 
+#resume-btn span {
+	margin-right: -.25em;
+	letter-spacing: .25em;
 }
 
 #resume-btn:hover {
