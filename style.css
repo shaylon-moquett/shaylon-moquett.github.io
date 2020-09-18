@@ -100,11 +100,14 @@ div#home-content h3 {
 
 #profile-img {
 	flex-grow: 1;
+	clip-path: circle(160px at center);
+    	height: 372px;
 
 }
 
 #profile-img img {
 	width: 476px;
+	margin-top: -127px
 }
 
 #home-content {
